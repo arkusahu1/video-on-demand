@@ -1,0 +1,40 @@
+.headerContainer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 16px 50px;
+	display: flex;
+	justify-content: space-between;
+	height: 32px;
+	align-items: center;
+	background-color: #fff;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,.35);
+	margin: 0;
+	z-index: 999;
+
+	@media only screen and (max-width: 640px) {
+    padding: 16px 22px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    padding: 16px 12px;
+  }
+
+	.vodBtn {
+		font-size: 40px;
+    color: #55aa29;
+    text-decoration: none;
+	}
+
+	.hLink {
+		padding: 22px;
+    color: rgba(0,0,0,.7);
+    text-decoration: none;
+    font-size: 20px;
+	}
+
+	.hLink:hover {
+    color: #55aa29;
+	}
+}

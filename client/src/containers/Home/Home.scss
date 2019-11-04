@@ -1,0 +1,15 @@
+.homeContainer {
+  position: relative;
+  top: 64px;
+  margin: 20px 50px;
+  min-height: calc(100vh - 96px);
+  background-color: #f5f6fa;
+
+  @media only screen and (max-width: 640px) {
+    margin: 20px 22px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    margin: 20px 12px;
+  }
+}

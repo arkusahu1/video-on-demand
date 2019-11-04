@@ -1,0 +1,41 @@
+.cardMainContainer {
+	text-align: center;
+
+	.cardContainer {
+		width: 190px;
+		min-height: 281px;
+		background: #e2e2e2;
+		border-radius: 15px;
+		margin: 10px;
+		display: inline-block;
+
+		@media only screen and (max-width: 760px) {
+			width: 150px;
+			min-height: 222px;
+		}
+
+		@media only screen and (max-width: 640px) {
+			width: 130px;
+			min-height: 192px;
+		}
+
+		.cardLink {
+			width: 100%;
+			outline: none;
+
+			img {
+				width: 100%;
+				vertical-align: middle;
+				border-radius: 15px;
+			}
+				
+		}
+	}
+}
+
+.cardMainContainer:first-child {
+	margin-left: 10px;
+	@media only screen and (max-width: 375px) {
+		margin-left: 0;
+	}
+}
