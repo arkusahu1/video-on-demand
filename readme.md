@@ -2,16 +2,13 @@
 
 Clone the repo:
 ```sh
+git clone https://github.com/arkusahu1/video-on-demand.git
+cd video-on-demand
 ```
 
 Install nodemon:
 ```js
 npm install -g nodemon
-```
-
-Set environment (vars):
-```sh
-cp .env.example .env
 ```
 
 Start server:
@@ -26,7 +23,7 @@ npm run dev:client
 ```
 ```sh
 # Build for Deployment
-npm run dev:client
+npm run build
 ```
 
 Tests:
