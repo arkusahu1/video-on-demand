@@ -16,9 +16,9 @@ node_modules/
 .npm
 npm-debug.log*
 package-lock.json
-/build/bundle.js
-/build/index.html
-/build*
+/client/build/bundle.js
+/client/build/index.html
+/client/client/build*
 /build/*
 # Editor/IDE
 .idea
